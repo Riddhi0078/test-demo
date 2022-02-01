@@ -1,0 +1,27 @@
+jenkinsfile: pipeline as a code
+
+1. start jenkins 
+2. Install pipeline plugin 
+3. Create a new job
+4. Create/ get jenkinsfile in pipeline section 
+5. Check output
+
+
+It can be written in 2 way delecrative way(new) and scripted way (old) uses groovy 
+difference if format and structure 
+
+if you want to add steps go to pipeline syntax and there you cann specify steps click on generate code it will generate code 
+
+How we can get the jenkins file from Git or any SCM 
+
+
+Steps 
+1. create new job or use existing job(type: pipeline)
+2. create a repository or github 
+3. Add jenkins file in git repo
+4. under jenkins job --> pipeline section --> select defination pipeline script from SCM 
+5. add repo and jenkinsfile location in the job under pipeline section 
+6. Save and run 
+
+How to clone a git repo using jenkinsfile 
+Add the path using pipeline syntax 
